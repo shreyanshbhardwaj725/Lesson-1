@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>lesson3</title>
+</head>
+
+<body>
+    <h1>links,tables and lists</h1>
+    <h2>links</h2>
+    <a href="https://en.wikipedia.org/wiki/Wikipedia:About">about us</a>
+    <h2>tables</h2>
+    <table border="5" </table>
+        <tr>
+            <th>student number</th>
+            <th>name</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dhruv</td>
+            <td>8th</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Harshit</td>
+            <td>8th</td>
+        </tr>
+    </table>
+    <h2>list</h2>
+    <ol>
+        <li>Jammu</li>
+        <li>Himachal</li>
+    </ol>
+    <ul>
+        <li>Lion</li>
+        <li>Sheep</li>
+
+    </ul>
+
+
+</body>
+
+</html>
