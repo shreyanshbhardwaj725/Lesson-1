@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Simple Calculator</h1>
+    <p>Perform all Operations using JavaScript</p>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+
+    <script>
+        // 7. Create two variables as number1 and number2 and then assign any values for those variables.
+        var num1 = 10;
+        var num2 = 2;
+
+        // 8. Then you need to create four other variables for performing the mathematical calculations.
+        var add = num1 + num2;
+        var sub = num1 - num2;
+        var mul = num1 * num2;
+        var div = num1 / num2;
+
+        // Then display the result of the mathematical operations done which are stored in the variables 
+        // in the <p> tags created in the HTML page by using document.getElementById(); method inside 
+        // the <script> tag.
+
+        document.getElementById("add").innerHTML = "The added value is: " + add;
+        document.getElementById("sub").innerHTML = "The subtracted value is: " + sub;
+        document.getElementById("mul").innerHTML = "The multiplied value is: " + mul;
+        document.getElementById("div").innerHTML = "The divided value is: " + div;
+    </script>
+
+</body>
+
+</html>
