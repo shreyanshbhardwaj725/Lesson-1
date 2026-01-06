@@ -1,0 +1,21 @@
+a=45
+b=3
+
+print("number1:",a)
+print("number2:",b)
+print("addition:",a+b)
+print("subtraction:",a-b)
+print("product:",a*b)
+print("division:",a/b)
+print("floor division:",a//b)
+print("modulus operation",a%b)
+print("square:",b**2)
+print("square root:",a**0.5)
+
+print("equal..?",a==b)
+print("number1 greater..?",a>b)
+print("number2 greater..?",a<b)
+print("not equal ?",a!=b)
+
+result=a/2+b**+10
+print("result of the given equation is,"result)
