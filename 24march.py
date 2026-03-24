@@ -1,0 +1,16 @@
+number = int(input("Input your number"))
+
+digit =len(str(number))
+
+resultNumber = 0
+
+temp = number
+while temp > 0:
+    digit = temp % 10
+    resultNumber+=digit** digit
+    temp //= 10
+
+if number == resultNumber:
+    print(number,"is armstrong number")
+else:
+    print(number,"is not armstrong number")
